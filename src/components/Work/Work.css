@@ -1,0 +1,24 @@
+details {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 1em 1em ;
+    color: white;
+    
+
+    
+}
+
+summary {
+    font-weight: bold;
+    padding:  .5em 0;
+    list-style: none
+}
+
+details[open] {
+    padding: 1em 1em ;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
